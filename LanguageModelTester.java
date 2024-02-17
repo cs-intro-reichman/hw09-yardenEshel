@@ -4,7 +4,7 @@ import java.io.FileWriter;
 
 public class LanguageModelTester {
     public static void main(String[] args) {
-        String methodName = "all";
+        String methodName = args[0];
         boolean result = false;
         switch (methodName) {
             case "calculateProbabilities":
